@@ -1,2 +1,84 @@
 proxies:
-#isi akun tunnel
+  - name: TR-SG-1
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: 65f79417-19b5-4a05-a7e6-13f600107ba7
+    network: ws
+    sni: jnologi.my.id
+    skip-cert-verify: true
+    udp: true
+    ws-opts:
+      path: /trojan-ws
+    headers:
+      Host: jnologi.my.id
+
+  - name: TR-SG-2
+    server: 104.26.7.171
+    port: 443
+    type: trojan
+    password: 65f79417-19b5-4a05-a7e6-13f600107ba7
+    network: ws
+    sni: jnologi.my.id
+    skip-cert-verify: true
+    udp: true
+    ws-opts:
+      path: /trojan-ws
+    headers:
+      Host: jnologi.my.id
+
+  - name: TR-SG-3
+    server: 104.22.20.245
+    port: 443
+    type: trojan
+    password: 65f79417-19b5-4a05-a7e6-13f600107ba7
+    network: ws
+    sni: jnologi.my.id
+    skip-cert-verify: true
+    udp: true
+    ws-opts:
+      path: /trojan-ws
+    headers:
+      Host: jnologi.my.id
+
+  - name: TR-SG-4
+    server: 104.20.74.141
+    port: 443
+    type: trojan
+    password: 65f79417-19b5-4a05-a7e6-13f600107ba7
+    network: ws
+    sni: jnologi.my.id
+    skip-cert-verify: true
+    udp: true
+    ws-opts:
+      path: /trojan-ws
+    headers:
+      Host: jnologi.my.id
+
+  - name: TR-SG-5
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 65f79417-19b5-4a05-a7e6-13f600107ba7
+    network: ws
+    sni: jnologi.my.id
+    skip-cert-verify: true
+    udp: true
+    ws-opts:
+      path: /trojan-ws
+    headers:
+      Host: jnologi.my.id
+
+  - name: TR-SG-6
+    server: 104.18.3.2
+    port: 443
+    type: trojan
+    password: 65f79417-19b5-4a05-a7e6-13f600107ba7
+    network: ws
+    sni: jnologi.my.id
+    skip-cert-verify: true
+    udp: true
+    ws-opts:
+      path: /trojan-ws
+    headers:
+      Host: jnologi.my.id

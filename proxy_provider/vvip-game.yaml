@@ -1,2 +1,118 @@
 proxies:
-#isi akun tunnel
+  - name: Vmess-Game-1
+    type: vmess
+    server: 104.26.6.171
+    port: 443
+    uuid: f716d2b5-c51a-4c58-9676-ea6298c09663
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: jnologi.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: jnologi.my.id
+
+  - name: Vmess-Game-2
+    type: vmess
+    server: 104.26.7.171
+    port: 443
+    uuid: f716d2b5-c51a-4c58-9676-ea6298c09663
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: jnologi.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: jnologi.my.id
+
+  - name: Vmess-Game-3
+    type: vmess
+    server: 104.22.20.245
+    port: 443
+    uuid: f716d2b5-c51a-4c58-9676-ea6298c09663
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: jnologi.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: jnologi.my.id
+
+  - name: Vmess-Game-4
+    type: vmess
+    server: 104.20.74.141
+    port: 443
+    uuid: f716d2b5-c51a-4c58-9676-ea6298c09663
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: jnologi.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: jnologi.my.id
+
+  - name: Vmess-Game-5
+    type: vmess
+    server: 104.17.3.81
+    port: 443
+    uuid: f716d2b5-c51a-4c58-9676-ea6298c09663
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: jnologi.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: jnologi.my.id
+
+  - name: Vmess-Game-6
+    type: vmess
+    server: 104.18.3.2
+    port: 443
+    uuid: f716d2b5-c51a-4c58-9676-ea6298c09663
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: jnologi.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: jnologi.my.id
+  - name: Vmess-Game-1
+    type: vmess
+    server: 104.26.6.171
+    port: 443
+    uuid: f716d2b5-c51a-4c58-9676-ea6298c09663
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: jnologi.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: jnologi.my.id
